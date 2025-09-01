@@ -158,12 +158,25 @@ export function useExam() {
     };
   }, [examState.isExamActive, examState.currentQuestionIndex]);
 
-  // Stop timer when time reaches 0
+  // Stop timer when time reaches 0 and auto-advance to next question
   useEffect(() => {
     if (examState.timeLeft <= 0 && timerRef.current) {
       clearInterval(timerRef.current);
+      
+      // Auto-advance to next question after a brief delay
+      const timeoutId = setTimeout(() => {
+        if (examState.currentQuestionIndex < examState.questions.length - 1) {
+          setExamState(prev => ({
+            ...prev,
+            currentQuestionIndex: prev.currentQuestionIndex + 1,
+            timeLeft: prev.questionTimers[prev.currentQuestionIndex + 1],
+          }));
+        }
+      }, 1000); // 1 second delay to let user see timer reached 0
+
+      return () => clearTimeout(timeoutId);
     }
-  }, [examState.timeLeft]);
+  }, [examState.timeLeft, examState.currentQuestionIndex, examState.questions.length]);
 
   const resetExam = useCallback(() => {
     if (timerRef.current) {

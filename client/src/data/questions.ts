@@ -600,5 +600,615 @@ export const questionBank: Question[] = [
     },
     correct: "B",
     chapter: 2
+  },
+  
+  // Chapter 3: Study Skills Questions
+  {
+    id: 51,
+    question: "According to the text, language is a human capacity to do what?",
+    options: {
+      A: "To relate together in a society.",
+      B: "To confuse others.",
+      C: "To make a single sound.",
+      D: "To speak without a structure."
+    },
+    correct: "A",
+    chapter: 3
+  },
+  {
+    id: 52,
+    question: "The text states that language is an abstract concept that exists in what?",
+    options: {
+      A: "Structures.",
+      B: "Feelings.",
+      C: "Emotions.",
+      D: "Ideas only."
+    },
+    correct: "A",
+    chapter: 3
+  },
+  {
+    id: 53,
+    question: "What is the primary purpose of language, as mentioned in the text?",
+    options: {
+      A: "To confuse people.",
+      B: "To deliver information.",
+      C: "To create chaos.",
+      D: "To write about a person's life."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  {
+    id: 54,
+    question: "What are the two broad kinds of words that words can be classified into?",
+    options: {
+      A: "Simple and complex.",
+      B: "Content and grammatical.",
+      C: "Lexical and auxiliary.",
+      D: "Noun and verb."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  {
+    id: 55,
+    question: "What is a key characteristic of a \"grammatical word\"?",
+    options: {
+      A: "It can stand alone with meaning.",
+      B: "It cannot stand alone and lacks meaning.",
+      C: "It is always a noun.",
+      D: "It is a class of words with meaning on its own."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  {
+    id: 56,
+    question: "The text suggests that the patterns of a language are more what?",
+    options: {
+      A: "Generatively situational.",
+      B: "Socio-cultural.",
+      C: "Private.",
+      D: "Abstract."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  {
+    id: 57,
+    question: "What does the text say about the loss of meaning in a language?",
+    options: {
+      A: "It happens when users do not follow the rules.",
+      B: "It happens when users fracture its structures.",
+      C: "It is a natural process.",
+      D: "It cannot happen."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  {
+    id: 58,
+    question: "What are some ways in which a language can get \"corrupted\"?",
+    options: {
+      A: "By transliterations and shifts of codes.",
+      B: "By following the rules of grammar.",
+      C: "By adding new words.",
+      D: "By reading more."
+    },
+    correct: "A",
+    chapter: 3
+  },
+  {
+    id: 59,
+    question: "The text suggests that a \"complete thought\" is always what?",
+    options: {
+      A: "Simple.",
+      B: "Random.",
+      C: "Structured.",
+      D: "Unclear."
+    },
+    correct: "C",
+    chapter: 3
+  },
+  {
+    id: 60,
+    question: "What is the relationship between a concept's meaning and its structure?",
+    options: {
+      A: "The structure precedes the meaning.",
+      B: "The meaning precedes the structure.",
+      C: "They are unrelated.",
+      D: "They are developed at the same time."
+    },
+    correct: "B",
+    chapter: 3
+  },
+  
+  // Chapter 5: Grammar Questions
+  {
+    id: 61,
+    question: "According to the text, what is a \"grammar\"?",
+    options: {
+      A: "A set of rigid rules.",
+      B: "An abstract description of language's writing systems.",
+      C: "A study of phonology.",
+      D: "A simple explanation of words."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 62,
+    question: "From what does grammar evolve?",
+    options: {
+      A: "Writing.",
+      B: "Meaning.",
+      C: "Phonology.",
+      D: "Structure."
+    },
+    correct: "C",
+    chapter: 5
+  },
+  {
+    id: 63,
+    question: "What features in English realize the punctuation systems?",
+    options: {
+      A: "Vowel sounds.",
+      B: "Prosodic features like tones and rhythm.",
+      C: "Consonant sounds.",
+      D: "Letters of the alphabet."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 64,
+    question: "What is the difference between functional and structural grammar?",
+    options: {
+      A: "They are the same.",
+      B: "They are unrelated.",
+      C: "They are complementary and focus on different aspects of language.",
+      D: "Functional grammar is superior to structural grammar."
+    },
+    correct: "C",
+    chapter: 5
+  },
+  {
+    id: 65,
+    question: "What is the notion of \"grammaticality\" based on?",
+    options: {
+      A: "The user's good knowledge of what grammar gets right or wrong.",
+      B: "The user's personal style.",
+      C: "The length of a sentence.",
+      D: "The number of words."
+    },
+    correct: "A",
+    chapter: 5
+  },
+  {
+    id: 66,
+    question: "What does the text suggest about the meaning of concepts in relation to their structure?",
+    options: {
+      A: "Structure precedes meaning.",
+      B: "Meaning precedes structure.",
+      C: "They develop at the same time.",
+      D: "They are irrelevant to each other."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 67,
+    question: "What is a potential consequence of using a \"private style\" of language?",
+    options: {
+      A: "It leads to a clear understanding.",
+      B: "It can result in a loss of meaning.",
+      C: "It makes the language more beautiful.",
+      D: "It makes the language more difficult to learn."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 68,
+    question: "What is the relationship between words and morphemes?",
+    options: {
+      A: "Words are a lower unit than morphemes.",
+      B: "Morphemes are a lower unit than words.",
+      C: "They are the same thing.",
+      D: "They are unrelated."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 69,
+    question: "What does the text say about the \"grammatical structure\" of a word?",
+    options: {
+      A: "It has no relation to the word's meaning.",
+      B: "It evolves from the meaning of the word.",
+      C: "It is arbitrary.",
+      D: "It is always the same."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  {
+    id: 70,
+    question: "What is the primary purpose of \"word classes\"?",
+    options: {
+      A: "To make a language more complex.",
+      B: "To provide a grammatical analysis of each word.",
+      C: "To make words shorter.",
+      D: "To make the language more elegant."
+    },
+    correct: "B",
+    chapter: 5
+  },
+  
+  // Chapter 7: The Sentence as a Realization Unit Questions
+  {
+    id: 71,
+    question: "What is a sentence defined as in the text?",
+    options: {
+      A: "A single word.",
+      B: "A group of words with a complete thought.",
+      C: "A group of words with no meaning.",
+      D: "A collection of sounds."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 72,
+    question: "What are the two main descriptions of a sentence?",
+    options: {
+      A: "Length and complexity.",
+      B: "Structural and functional.",
+      C: "Simple and compound.",
+      D: "Declarative and interrogative."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 73,
+    question: "What is a key characteristic of a \"simple sentence\"?",
+    options: {
+      A: "It has two clauses.",
+      B: "It has no subject.",
+      C: "It is a clause that stands on its own.",
+      D: "It always has a conjunction."
+    },
+    correct: "C",
+    chapter: 7
+  },
+  {
+    id: 74,
+    question: "What is a \"compound sentence\"?",
+    options: {
+      A: "A sentence with one verb.",
+      B: "A sentence with one subject.",
+      C: "A sentence that combines two or more simple sentences with a conjunction.",
+      D: "A sentence that asks a question."
+    },
+    correct: "C",
+    chapter: 7
+  },
+  {
+    id: 75,
+    question: "What are the four types of sentences based on their function?",
+    options: {
+      A: "Simple, compound, complex, and declarative.",
+      B: "Declarative, interrogative, imperative, and exclamatory.",
+      C: "Noun, verb, adverb, and adjective.",
+      D: "Past, present, future, and perfect."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 76,
+    question: "What is a \"declarative sentence\"?",
+    options: {
+      A: "A sentence that asks a question.",
+      B: "A sentence that makes a statement.",
+      C: "A sentence that gives a command.",
+      D: "A sentence that expresses a strong feeling."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 77,
+    question: "What is the main function of an \"interrogative sentence\"?",
+    options: {
+      A: "To make a statement.",
+      B: "To give a command.",
+      C: "To express a strong feeling.",
+      D: "To ask a question."
+    },
+    correct: "D",
+    chapter: 7
+  },
+  {
+    id: 78,
+    question: "What is a \"verbless clause\"?",
+    options: {
+      A: "A clause without words.",
+      B: "A clause where a verb is omitted but can be recovered.",
+      C: "A clause that is always a mistake.",
+      D: "A clause that has no meaning."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 79,
+    question: "What is a \"nominal clause\"?",
+    options: {
+      A: "A clause that functions as a verb.",
+      B: "A clause that functions as an adjective.",
+      C: "A clause that functions as a noun.",
+      D: "A clause that functions as an adverb."
+    },
+    correct: "C",
+    chapter: 7
+  },
+  {
+    id: 80,
+    question: "The text suggests that a sentence's structure must be what to be intelligible?",
+    options: {
+      A: "Long.",
+      B: "Complex.",
+      C: "Grammatically acceptable.",
+      D: "Simple."
+    },
+    correct: "C",
+    chapter: 7
+  },
+  {
+    id: 81,
+    question: "What does the text say about the subject of a sentence?",
+    options: {
+      A: "It can only be a noun.",
+      B: "It can be a noun, noun phrase, or pronoun.",
+      C: "It can only be a verb.",
+      D: "It can only be a pronoun."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 82,
+    question: "What is the relationship between the verb and the subject in a clause?",
+    options: {
+      A: "The verb is a description of the subject.",
+      B: "The verb is an action of the subject.",
+      C: "The verb is always a noun.",
+      D: "The verb is always a pronoun."
+    },
+    correct: "B",
+    chapter: 7
+  },
+  {
+    id: 83,
+    question: "What is a \"complex sentence\"?",
+    options: {
+      A: "A sentence with only independent clauses.",
+      B: "A sentence with only dependent clauses.",
+      C: "A sentence with an independent and one or more dependent clauses.",
+      D: "A sentence with a single clause."
+    },
+    correct: "C",
+    chapter: 7
+  },
+  
+  // Chapter 9: Paragraphing Questions
+  {
+    id: 84,
+    question: "What is a \"paragraph\" defined as in the text?",
+    options: {
+      A: "A single sentence.",
+      B: "A unit of discourse in a text.",
+      C: "A collection of random ideas.",
+      D: "A group of words without a topic."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 85,
+    question: "What is the primary function of a paragraph?",
+    options: {
+      A: "To confuse the reader.",
+      B: "To make a text longer.",
+      C: "To organize a single topic of discussion.",
+      D: "To make the text more visually appealing."
+    },
+    correct: "C",
+    chapter: 9
+  },
+  {
+    id: 86,
+    question: "What is the basic paragraphing rule?",
+    options: {
+      A: "One paragraph must have at least 10 sentences.",
+      B: "One main idea should occupy a paragraph.",
+      C: "Every sentence must be a new paragraph.",
+      D: "The paragraph must be very long."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 87,
+    question: "What is the function of a \"topic sentence\"?",
+    options: {
+      A: "To confuse the reader.",
+      B: "To summarize a whole chapter.",
+      C: "To contain the main idea of a paragraph.",
+      D: "To introduce a new topic in a new paragraph."
+    },
+    correct: "C",
+    chapter: 9
+  },
+  {
+    id: 88,
+    question: "What does the text say about the location of a topic sentence?",
+    options: {
+      A: "It can only be at the beginning.",
+      B: "It can only be in the middle.",
+      C: "It can be at the beginning, middle, or end.",
+      D: "It can only be at the end."
+    },
+    correct: "C",
+    chapter: 9
+  },
+  {
+    id: 89,
+    question: "What is a key rule for good paragraphing?",
+    options: {
+      A: "Mixing up main and minor points.",
+      B: "Creating a new paragraph for each main point.",
+      C: "Making the paragraph very long.",
+      D: "Using only one word per paragraph."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 90,
+    question: "What does the text suggest about the length of a paragraph?",
+    options: {
+      A: "It must be a specific length.",
+      B: "It can be determined by the writer.",
+      C: "It must be very short.",
+      D: "It must be very long."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 91,
+    question: "A paragraph is considered \"satisfactory\" to the reader when it is what?",
+    options: {
+      A: "Short.",
+      B: "Convinced and rich enough.",
+      C: "Long.",
+      D: "Confusing."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 92,
+    question: "What is the purpose of \"supportive details\" in a paragraph?",
+    options: {
+      A: "To create a new paragraph.",
+      B: "To support the main idea.",
+      C: "To confuse the reader.",
+      D: "To make the paragraph shorter."
+    },
+    correct: "B",
+    chapter: 9
+  },
+  {
+    id: 93,
+    question: "The text says that a paragraph is a grammatical unit above what?",
+    options: {
+      A: "A word.",
+      B: "A letter.",
+      C: "A sentence.",
+      D: "A phrase."
+    },
+    correct: "C",
+    chapter: 9
+  },
+  
+  // Chapter 10: Grammatical Top Realisation Units Questions
+  {
+    id: 94,
+    question: "What is the primary purpose of writing, as stated in the text?",
+    options: {
+      A: "To impress others.",
+      B: "To improve a student's academic goals.",
+      C: "To create a personal journal.",
+      D: "To make the text longer."
+    },
+    correct: "B",
+    chapter: 10
+  },
+  {
+    id: 95,
+    question: "What is writing considered in the text?",
+    options: {
+      A: "A boring activity.",
+      B: "A persuasive treatment for a text.",
+      C: "A simple hobby.",
+      D: "A way to confuse others."
+    },
+    correct: "B",
+    chapter: 10
+  },
+  {
+    id: 96,
+    question: "The writing task requires the writer to pay attention to what?",
+    options: {
+      A: "The length of the text.",
+      B: "Mechanical accuracy, logical thoughts, and coherence.",
+      C: "The font size.",
+      D: "The number of pages."
+    },
+    correct: "B",
+    chapter: 10
+  },
+  {
+    id: 97,
+    question: "What is the difference between \"independent writing\" and \"integrated writing\"?",
+    options: {
+      A: "They are the same.",
+      B: "Independent writing is an individual's own text, while integrated writing is a response to another's text.",
+      C: "Independent writing is for professionals, and integrated writing is for students.",
+      D: "Independent writing is for a single subject, and integrated writing is for multiple subjects."
+    },
+    correct: "B",
+    chapter: 10
+  },
+  {
+    id: 98,
+    question: "What is the main idea of an \"argumentative writing aspect\"?",
+    options: {
+      A: "To tell a story.",
+      B: "To describe a situation.",
+      C: "To structure an argument with a premise, proposition, and conclusion.",
+      D: "To provide examples."
+    },
+    correct: "C",
+    chapter: 10
+  },
+  {
+    id: 99,
+    question: "What is the main characteristic of an \"illustrative writing aspect\"?",
+    options: {
+      A: "It is structured as an argument.",
+      B: "It is a statement of fact with examples.",
+      C: "It is a story.",
+      D: "It is a personal opinion."
+    },
+    correct: "B",
+    chapter: 10
+  },
+  {
+    id: 100,
+    question: "What does the text suggest about the writing task?",
+    options: {
+      A: "It is always the same.",
+      B: "It can vary from answering questions to giving opinions.",
+      C: "It is always a story.",
+      D: "It is always a report."
+    },
+    correct: "B",
+    chapter: 10
   }
 ];

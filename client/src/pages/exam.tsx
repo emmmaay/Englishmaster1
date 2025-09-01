@@ -41,13 +41,9 @@ export function ExamPage({
                 English Masters Exam
               </h1>
               <div className="flex items-center space-x-2">
-                <span className="text-sm text-muted-foreground">Question</span>
-                <span className="font-semibold text-foreground" data-testid="current-question">
-                  {examState.currentQuestionIndex + 1}
-                </span>
-                <span className="text-muted-foreground">of</span>
-                <span className="font-semibold text-foreground" data-testid="total-questions">
-                  {examState.questions.length}
+                <span className="text-sm text-muted-foreground">Questions Answered:</span>
+                <span className="font-semibold text-foreground" data-testid="questions-answered">
+                  {Object.keys(examState.userAnswers).length}
                 </span>
               </div>
             </div>

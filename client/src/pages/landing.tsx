@@ -64,7 +64,7 @@ export function LandingPage({ onStartExam }: LandingPageProps) {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               <Card className="bg-accent">
                 <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-primary">50+</div>
+                  <div className="text-2xl font-bold text-primary">100+</div>
                   <div className="text-sm text-accent-foreground">Questions Available</div>
                 </CardContent>
               </Card>
